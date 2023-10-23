@@ -1,0 +1,631 @@
+.swim__author {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(51, 51, 51, 0.7);
+}
+
+.swim__ontogeny {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0.25px;
+	color: #868686;
+}
+
+.swim-wrapper-cloud-text {
+	background-image: url(img/cloud_pink.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 485px;
+	min-height: 168px;
+	margin: auto;
+}
+
+.swim__cloud_pink {
+	max-width: 240px;
+	align-self: center;
+	position: absolute;	
+}
+
+.swim__text-over-cloud {
+	position: relative;
+	z-index: 1;
+	top: 24px;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.swim-wrapper-woman-text {
+	display: flex;
+	gap: 24px;
+}
+
+.swim-wrapper-woman-text img {
+	max-width: 282px;
+}
+
+.swim-wrapper-woman-text p {
+	margin-top: 0px;
+}
+
+.swim-wrapper-exercise {
+	background-color: #FEFAEC;
+	border-radius: 16px;
+	padding: 24px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+
+.swim-wrapper-exercise h5 {
+	margin-top: 0px;
+	margin-bottom: 8px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.swim-wrapper-hands-text img {
+	max-width: 281px;
+}
+
+.swim-wrapper-hands-text p {
+	margin-top: 0px;
+}
+
+.swim-wrapper-hands-text {
+	display: flex;
+	gap: 24px;
+}
+
+.swim-wrapper-chair-text, .swim-wrapper-night-text {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	align-items: center;
+}
+
+.swim-wrapper-chair-night img {
+	max-width: 333px;
+}
+
+.swim-wrapper-chair-night {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+}
+
+.lilia-list {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	color: #333333;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	list-style-position: inside;
+}
+
+.lilia-psychologist h4 {
+	margin-top: 16px;
+	margin-bottom: 0px;
+
+}
+
+.lilia-psychologist h5 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+}
+
+.lilia-psychologist span {
+	margin-bottom: 16px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #A2A7B1;
+}
+
+.lilia__works-width {
+	margin-top: 16px;
+	margin-bottom: 8px;
+	text-align: left;
+	width: 234px;
+}
+
+.lilia h3 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.lilia__line {
+	width: 250px;
+	height: 1px;
+	margin: auto;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 0px #DEDEDE;
+	margin-top: 16px;
+}
+
+.swim img {
+	width: 100%;
+}
+
+.swim {
+	max-width: 690px;
+}
+
+.swim h1 {
+	margin-bottom: 16px !important;
+}
+
+.sidebar {
+	
+}
+
+.swim__img {
+	margin-top: 25px;
+	margin-bottom: 24px;
+}
+
+.sidebar-card {
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+	text-align: center;
+	max-width: 282px;
+	box-sizing: border-box;
+}
+
+.sidebar-card-read-more {
+	width: 234px;
+	height: 48px;
+	cursor: pointer;
+	background: #35B3A9;
+	border-radius: 4px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	transition: background-color .2s ease,border-color .2s ease,color .2s ease;
+}
+
+.sidebar-card-read-more:hover {
+	background: #16C8BB;
+}
+
+.lilia img {
+	border-radius: 50%;
+}
+
+.lilia {
+	padding-top: 24px;
+	padding-bottom: 36px;
+	border: 1px solid #DEDEDE;
+	margin-bottom: 28px;
+	position: relative;
+}
+
+.free-windows {
+	background: #E6F0FD;
+	margin-bottom: 24px;
+	padding: 24px 20px;
+}
+
+.wrapper-subtitles {
+	display: flex;
+	flex-direction: column;
+}
+
+.subtitle-1 {
+	padding-left: 56px;
+}
+
+.subtitle-2 {
+	padding-left: 72px;
+}
+
+.subtitle-3 {
+	padding-left: 88px;
+}
+
+.article-content li::marker {
+	color: #03B2A5;
+}
+
+.article-find-psychologist {
+	width: 1200px;
+	height: 500px;
+	background-color: red;
+}
+
+.wrapper-swim-sidebar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.swim-anna-krimskaya {
+	background-color: #F3F7FE;
+	border-radius: 16px;
+	padding: 34px 24px 24px 24px;
+	margin-left: 0px;
+	margin-top: 40px;
+	margin-bottom: 24px;
+}
+
+.swim-anna-krimskaya p {
+	margin-top: 0px;
+}
+
+.swim-wrapper-exercise-blue {
+	background-color: rgba(3, 178, 165, 0.1);
+	border-radius: 16px;
+	padding: 24px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.swim-wrapper-exercise-blue h5 {
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+.swim-wrapper-exercise-blue p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.swim-wrapper-links {
+	margin-bottom: 48px;
+}
+
+.swim-wrapper-links a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #2963A3;
+	text-decoration: none;
+}
+
+.swim__content {
+	margin-top: 0px;
+	margin-bottom: 16px;
+}
+
+.swim__header-h3 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.swim__walk {
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+.swim__text-under_walk, .swim__text_under-cloud, .swim__text_under-woman-with-glasses, .swim-wrapper-hands-text, .swim-wrapper-exercise-blue {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.lilia-wrapper-chat-video {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	text-align: left;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	display: flex;
+	letter-spacing: 0.25px;
+}
+
+.lilia-wrapper-chat-video span {
+	background: rgba(243, 244, 248, 0.7);
+	border-radius: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+	height: 24px;
+}
+
+.lilia-wrapper-chat-video span:nth-child(2) {
+	width: 74px;
+	box-sizing: border-box;
+}
+
+.give-care {
+	height: 292px;
+	background-image: url(img/background_blue.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #2963A3;
+	position: relative;
+	overflow: hidden;
+}
+
+.give-care__gifts {
+	background-image: url(img/gifts.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: bottom;
+	bottom: 0px;
+	width: 282px;
+	height: 133px;
+}
+
+.give-care span {
+	position: absolute;
+	top: 60px;
+	margin: auto;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.video-sessions {
+	width: 100%;
+	background: #FFFFFF;
+	border: 1px solid #DEDEDE;
+	margin-top: 42px;
+	padding: 32px;
+	position: relative;
+}
+
+.video-sessions p {
+	text-align: left;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #011632;
+}
+
+.video-sessions__header {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: left;
+	color: #2963A3;
+}
+
+.eight {
+	font-style: normal;
+	font-size: 24px !important;
+	line-height: 32px !important;
+}
+
+.video-sessions-content {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.video-sessions__price {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: left;
+}
+
+.video-sessions__buy {
+	width: 108px;
+	height: 48px;
+	background: #35B3A9;
+	border-radius: 4px;
+	padding: 12px 23px;
+	box-sizing: border-box;
+	margin-top: 16px;
+	z-index: 2;
+	transition: background-color .2s ease,border-color .2s ease,color .2s ease;
+	cursor: pointer;
+}
+
+.video-sessions__buy:hover {
+	background: #16C8BB;
+}
+
+.video-sessions__buy a {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.video-sessions__gift_red {
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+
+.video-sessions__gift_blue {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1;
+}
+
+.article-problem-responds  {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.article-problem-responds h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+	margin-top: 0px;
+	margin-bottom: 24px;
+}
+
+.article-problem-responds span {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.article-problem-responds__find-psychologist {
+	width: 238px;
+	height: 60px;
+	background: #16C8BB;
+	border-radius: 4px;
+	padding: 20px 24px;
+	box-sizing: border-box;
+	margin-top: 32px;
+	transition: background-color .2s ease,border-color .2s ease,color .2s ease;
+}
+
+.article-problem-responds__find-psychologist:hover {
+	    background: rgb(3, 160, 148);
+}
+
+.article-problem-responds__find-psychologist a {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.article-problem-responds__text {
+	max-width: 384px;
+}
+
+.article-problem-responds__two-persons {
+	margin-right: 29px;
+	margin-bottom: 26px;
+}
+
+.article-problem-responds__line {
+	border: 1px solid #DEDEDE;
+	width: 100%
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 72px;
+}
+
+.background_blue {
+	background-color: #EFF5FB;
+	height: 82px;
+}
+
+.spot_red {
+	position: absolute;
+	bottom: 500px;
+	right: 0px;
+}
+
+.spot_red_big {
+	position: absolute;
+	top: 2480px;
+	right: 0px;
+}
+
+.free-windows img {
+	max-width: 181px;
+}
+
+
+
+.free-windows h3 {
+	margin-top: 27px;
+	margin-bottom: 11px;
+}
+
+
+.free-windows p {
+	margin-top: 0px;
+	margin-bottom: 24px;
+}
+
+.lilia {
+	padding: 24px 24px 17px;
+}
+
+.line_one, .line_two {
+	width: 66px;
+	height: 0px;
+	border: 1px solid #0063A8;
+}
+
+.wrapper-line-lightning {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.list-links {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	flex-wrap: wrap;
+	
+}
+
+.list-links li {
+	margin-right: 10px;
+	position: relative;
+
+}
+
+.list-links li:before {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 2px;
+	background-color: #494949;
+	border-radius: 50%;
+	position: absolute;
+	top: 40%;
+	left: -6px;
+	transform: translateY(-50%);
+}
+
+.list-links {
+	margin: 0px;
+	margin-left: 6px;
+	padding: 0px;
+	list-style-type: circle;
+}
+
+.list-links:first-child {
+	list-style-type: none;
+}
